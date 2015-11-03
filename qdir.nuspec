@@ -15,9 +15,8 @@
     <copyright>by Nenad Hrg softwareok.de</copyright>
     <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://www.softwareok.com/img/ico/Q-Dir.png</iconUrl>
-    <releaseNotes>
-New in version 6.19 // October 27th 2015 
+    <iconUrl>https://cdn.rawgit.com/zersh01/chocolatey-q-dir/master/Icon.png</iconUrl>
+    <releaseNotes>New in version 6.19 // October 27th 2015 
 Bug-Fix in Q-Dir, on Windows 10 if opening the various file types (* .jpg, * .zip, etc) by a double click or ENTER hit.
 
 # Versions History
