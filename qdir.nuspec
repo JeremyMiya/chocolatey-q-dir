@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>qdir</id>
     <title>Q-Dir</title>
-    <version>6.19</version>
+    <version>6.23</version>
     <authors>Nenad Hrg</authors>
     <owners>zersh</owners>
     <summary>Quad Explorer - file manager</summary>
@@ -13,34 +12,13 @@
     <projectUrl>http://www.softwareok.com/?seite=Freeware/Q-Dir</projectUrl>
     <tags>qdir file manager managment explorer</tags>
     <copyright>by Nenad Hrg softwareok.de</copyright>
-    <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <licenseUrl>http://www.softwareok.com/?seite=Freeware/Q-Dir/Eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/zersh01/chocolatey-q-dir/master/Icon.png</iconUrl>
-    <releaseNotes>New in version 6.19 // October 27th 2015 
-Bug-Fix in Q-Dir, on Windows 10 if opening the various file types (* .jpg, * .zip, etc) by a double click or ENTER hit.
-
-# Versions History
-
-New in version 6.18 // October 21th 2015 
-Bug-Fix in the Q-Dir export feature!
-In the translation tool you can now select German or English as the base language.
-Update of the language files in Q-Dir.
-
-
-New in version 6.18 // October 21th 2015 
-Bug-Fix in the Extport-Feature in Q-Dir!
-
-
-New in version 6.17 // October 14th 2015 
-Bugfix in the Q-Dir Portable version, while saving some settings in the Q-Dir.ini file!
-
-
-New in version 6.16 // September 16th 2015 
-Improvements and small adjustments in the file manager Q-Dir under Windows 10.
-
-
-New in version 6.15 // August 31th 2015 
-Small changes and improvements in file manager Q-Dir for Windows 10.</releaseNotes>
+    <releaseNotes>New in version 6.23 // January 7th 2016 
+Small changes, improvements and fixes for x64 operating systems 
+Update of the language files in Q-dir. </releaseNotes>
+    <iconUrl>https://rawgit.com/zersh01/chocolatey-q-dir/master/Icon.png</iconUrl>
+    <projectSourceUrl>https://github.com/zersh01/chocolatey-q-dir</projectSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
