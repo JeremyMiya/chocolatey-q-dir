@@ -4,7 +4,7 @@
   <metadata>
     <id>qdir</id>
     <title>Q-Dir</title>
-    <version>6.23</version>
+    <version>6.26</version>
     <authors>Nenad Hrg</authors>
     <owners>zersh</owners>
     <summary>Quad Explorer - file manager</summary>
@@ -14,9 +14,18 @@
     <copyright>by Nenad Hrg softwareok.de</copyright>
     <licenseUrl>http://www.softwareok.com/?seite=Freeware/Q-Dir/Eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>New in version 6.23 // January 7th 2016 
-Small changes, improvements and fixes for x64 operating systems 
-Update of the language files in Q-dir. </releaseNotes>
+    <releaseNotes>
+# Versions History
+New in version 6.26 // February 29th 2016 
+New in Q-Dir, both address bars can be displayed. 
+New: Refresh button, but can be disabled via Extras, Address Bar 
+Update of the language files in Q-Dir. 
+
+
+New in version 6.24 // February 15th 2016 
+Drag and Drop Bug-Fix for Windows-10 and Windows-Server 2016! 
+Update of the language files in Q-Dir. 
+</releaseNotes>
     <iconUrl>https://rawgit.com/zersh01/chocolatey-q-dir/master/Icon.png</iconUrl>
     <projectSourceUrl>https://github.com/zersh01/chocolatey-q-dir</projectSourceUrl>
   </metadata>
