@@ -27,7 +27,7 @@ Drag and Drop Bug-Fix for Windows-10 and Windows-Server 2016!
 Update of the language files in Q-Dir. 
 </releaseNotes>
     <iconUrl>https://rawgit.com/zersh01/chocolatey-q-dir/master/Icon.png</iconUrl>
-    <projectSourceUrl>https://github.com/zersh01/chocolatey-q-dir</projectSourceUrl>
+    <packageSourceUrl>https://github.com/zersh01/chocolatey-q-dir</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

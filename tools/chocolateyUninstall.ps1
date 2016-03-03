@@ -3,7 +3,7 @@ $fileType = 'exe'
 $silentArgs = '-uninstall'
 
 $osBitness = Get-ProcessorBits
-if ($osBitness -eq 64) 
+if ($osBitness -eq 64) {
     $programUninstallEntryName = "Q-Dir"
     $uninstallString = (Get-ItemProperty HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | Select DisplayName, UninstallString | Where-Object {$_.DisplayName -like "$programUninstallEntryName*"}).UninstallString
     $uninstallString = $uninstallString.Substring(0,39)

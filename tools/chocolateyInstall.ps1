@@ -13,3 +13,7 @@ $exeFilePath = get-childitem $tempDir -recurse -include *.$installerType | selec
 Install-ChocolateyInstallPackage "$packageName" "$installerType" "$silentArgs" "$exeFilePath"
 
 Remove-Item "$tempDir" -Recurse
+
+
+
+
