@@ -4,28 +4,21 @@
   <metadata>
     <id>qdir</id>
     <title>Q-Dir</title>
-    <version>6.26</version>
+    <version>6.32</version>
     <authors>Nenad Hrg</authors>
     <owners>zersh</owners>
     <summary>Quad Explorer - file manager</summary>
-    <description>The file management in Q-Dir is based on MS Windows Explorer but 4x plus Tabs and with more functionality!</description>
+    <description>The file management in Q-Dir is based on MS Windows Explorer but 4x plus Tabs and with more functionality!
+
+</description>
     <projectUrl>http://www.softwareok.com/?seite=Freeware/Q-Dir</projectUrl>
     <tags>qdir file manager managment explorer</tags>
     <copyright>by Nenad Hrg softwareok.de</copyright>
     <licenseUrl>http://www.softwareok.com/?seite=Freeware/Q-Dir/Eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>
-# Versions History
-New in version 6.26 // February 29th 2016 
-New in Q-Dir, both address bars can be displayed. 
-New: Refresh button, but can be disabled via Extras, Address Bar 
-Update of the language files in Q-Dir. 
-
-
-New in version 6.24 // February 15th 2016 
-Drag and Drop Bug-Fix for Windows-10 and Windows-Server 2016! 
-Update of the language files in Q-Dir. 
-</releaseNotes>
+    <releaseNotes>New in version 6.32 // March 20th 2016 
+Small corrections and rebuilding/recompiling Q-Dir because virus alert (Trojan:Win32/Spallowz.A!plock) 
+from Windows-Defender on Windows-10, although no virus was present. </releaseNotes>
     <iconUrl>https://rawgit.com/zersh01/chocolatey-q-dir/master/Icon.png</iconUrl>
     <packageSourceUrl>https://github.com/zersh01/chocolatey-q-dir</packageSourceUrl>
   </metadata>

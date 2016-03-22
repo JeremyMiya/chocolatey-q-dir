@@ -1,4 +1,4 @@
-$packageName = 'qdir'
+﻿$packageName = 'qdir'
 $fileType = 'exe'
 $silentArgs = '-uninstall'
 
@@ -19,3 +19,8 @@ if ($uninstallString -ne "") {
 	Start-Sleep 1
 	$wshell.sendkeys("`"OK`"~")
 }
+
+
+
+
+
