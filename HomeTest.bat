@@ -1,3 +1,3 @@
-rem choco pack
-rem choco install qdir -source E:\Yandex_disk\backup\Chocolatey\MyProject\qdir\ -y -force -version 6.14
-choco uninstall qdir -a -y
+choco pack
+choco install qdir -source D:\YandexDisk\backup\Chocolatey\MyProject\qdir\ -y -force -version 6.49.7
+rem choco uninstall qdir -a -y

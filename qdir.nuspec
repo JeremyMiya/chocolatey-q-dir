@@ -4,7 +4,7 @@
   <metadata>
     <id>qdir</id>
     <title>Q-Dir</title>
-    <version>6.32</version>
+    <version>6.49.7</version>
     <authors>Nenad Hrg</authors>
     <owners>zersh</owners>
     <summary>Quad Explorer - file manager</summary>
@@ -12,14 +12,38 @@
 
 </description>
     <projectUrl>http://www.softwareok.com/?seite=Freeware/Q-Dir</projectUrl>
-    <tags>qdir file manager managment explorer</tags>
+    <tags>qdir file manager managment explorer admin</tags>
     <copyright>by Nenad Hrg softwareok.de</copyright>
     <licenseUrl>http://www.softwareok.com/?seite=Freeware/Q-Dir/Eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>New in version 6.32 // March 20th 2016 
-Small corrections and rebuilding/recompiling Q-Dir because virus alert (Trojan:Win32/Spallowz.A!plock) 
-from Windows-Defender on Windows-10, although no virus was present. </releaseNotes>
+    <releaseNotes>New in version 6.49.7 // February 28th 2017 
+
+1. Small corrections and rebuilding/recompiling Q-Dir because virus alert (Trojan:Win32/Buu.A!TruLaLa) 
+from Windows-Defender on Windows-10, although no virus was present. 
+
+2. Update of the language files in Q-Dir. 
+
+New in version 6.49.5 // February 14th 2017 
+Small corrections and recompiling of Q-dir, Windows-10 fixes in Q-dir. 
+In the future The Q-Dir.exe is created in Unicode, the Unicode version is compatible and stable on Windows. 
+Who works with Win 98, can use the Q Dir_Win98.exe. 
+... What is Unicode / I need that? 
+
+
+New in version 6.49.4 // January 31th 2017 
+1. Small corrections and rebuilding/recompiling Q-Dir because virus alert (Trojan:Win32/BlaBla.A!BlaBla) 
+from Windows-Defender on Windows-10, although no virus was present. 
+2. Update of the language files in Q-Dir and Improvements and small adjustments for Windows 10. 
+
+
+New in version 6.49.1 // January 26th 2017 
+New option: main menu / tools / file operations / L-mouse: move file confirm, helps at slips on the touch screen. 
+
+
+New in version 6.48.4 // January 21th 2017 
+Bugfix in Q-dir when printing the list view In landscape mode! </releaseNotes>
     <iconUrl>https://rawgit.com/zersh01/chocolatey-q-dir/master/Icon.png</iconUrl>
+    <docsUrl>https://ru.wikipedia.org/wiki/Q-Dir</docsUrl>
     <packageSourceUrl>https://github.com/zersh01/chocolatey-q-dir</packageSourceUrl>
   </metadata>
   <files>
