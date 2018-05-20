@@ -1,52 +1,47 @@
-﻿<?xml version="1.0" encoding="utf-8"?> 
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>qdir</id>
-    <title>Q-Dir</title>
-    <version>6.49.7</version>
+    <version>7.02</version>
+    <title>Q-Dir (Install)</title>
     <authors>Nenad Hrg</authors>
-    <owners>zersh</owners>
-    <summary>Quad Explorer - file manager</summary>
-    <description>The file management in Q-Dir is based on MS Windows Explorer but 4x plus Tabs and with more functionality!
-
-</description>
+    <copyright>by Nenad Hrg softwareok.de</copyright>	
+    <owners>bcurran3</owners>
+    <packageSourceUrl>https://github.com/bcurran3/ChocolateyPackages/tree/master/qdir</packageSourceUrl>			
     <projectUrl>http://www.softwareok.com/?seite=Freeware/Q-Dir</projectUrl>
-    <tags>qdir file manager managment explorer admin</tags>
-    <copyright>by Nenad Hrg softwareok.de</copyright>
+	<docsUrl>http://www.softwareok.com/?seite=faq-Q-DIR</docsUrl>
+    <bugTrackerUrl>http://www.softwareok.com/?seite=Freeware/Q-Dir</bugTrackerUrl>		
+    <iconUrl>https://rawgit.com/zersh01/chocolatey-q-dir/master/Icon.png</iconUrl>
     <licenseUrl>http://www.softwareok.com/?seite=Freeware/Q-Dir/Eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>New in version 6.49.7 // February 28th 2017 
+    <description>
+![Screenshot of Q-Dir](http://www.softwareok.com/img/ss/g_en/Q-Dir2.jpg)
 
-1. Small corrections and rebuilding/recompiling Q-Dir because virus alert (Trojan:Win32/Buu.A!TruLaLa) 
-from Windows-Defender on Windows-10, although no virus was present. 
+##The Quad-Directory-Explorer makes your files and folders easy to manage, either installed or as a portable Windows program.
 
-2. Update of the language files in Q-Dir. 
+Fast and easy access to your hard disks, network folders, USB-sticks, floppy disks and other storage devices. 
 
-New in version 6.49.5 // February 14th 2017 
-Small corrections and recompiling of Q-dir, Windows-10 fixes in Q-dir. 
-In the future The Q-Dir.exe is created in Unicode, the Unicode version is compatible and stable on Windows. 
-Who works with Win 98, can use the Q Dir_Win98.exe. 
-... What is Unicode / I need that? 
+Q-Dir is a great alternative file manager for Windows with a amazing Quadro-View technique. 
 
+You don't have to give up your usual work habits, drag 'n' drop, view types, and other standard functions of your current file manager. 
 
-New in version 6.49.4 // January 31th 2017 
-1. Small corrections and rebuilding/recompiling Q-Dir because virus alert (Trojan:Win32/BlaBla.A!BlaBla) 
-from Windows-Defender on Windows-10, although no virus was present. 
-2. Update of the language files in Q-Dir and Improvements and small adjustments for Windows 10. 
+No! Q-Dir gives you extra useful functions to make you happy. Save time by reducing mouse-clicks and hand movements . Q-Dir does not have to be installed and can be executed easily from any location, such as the Desktop, and can be carried on a small USB-stick or other memory device. 
 
+Q-Dir's file management is based on MS Windows Explorer, but 4x plus [Explorer Tab Views](http://www.softwareok.com/?seite=faq-Q-DIR&amp;faq=64) and with more functionality! More and more data makes for a larger file management challenge on you Windows OS. 
+ 
+Q-Dir allows you to save [folder combinations as a favourite](http://www.softwareok.com/?seite=faq-Q-DIR&amp;faq=4) to open any time. Up to 64 folder combinations can be saved in a favorite, since each of the four [windows is equipped with tabs](http://www.softwareok.com/?seite=faq-Q-DIR&amp;faq=60)  (ie 4 x 16 tabs 4 x Tree View plus 4 x Address Bar),  [different colors for different file types ...](http://www.softwareok.com/?seite=faq-Q-DIR&amp;faq=6)
+ 
+Warning! ► [Once Q-Dir, always Q-Dir !!!](http://www.softwareok.com/?seite=faq-Q-DIR&amp;faq=57)
 
-New in version 6.49.1 // January 26th 2017 
-New option: main menu / tools / file operations / L-mouse: move file confirm, helps at slips on the touch screen. 
+[Feature list on Q-Dir's website](http://www.softwareok.com/?seite=Freeware/Q-Dir)
 
-
-New in version 6.48.4 // January 21th 2017 
-Bugfix in Q-dir when printing the list view In landscape mode! </releaseNotes>
-    <iconUrl>https://rawgit.com/zersh01/chocolatey-q-dir/master/Icon.png</iconUrl>
-    <docsUrl>https://ru.wikipedia.org/wiki/Q-Dir</docsUrl>
-    <packageSourceUrl>https://github.com/zersh01/chocolatey-q-dir</packageSourceUrl>
+**[PACKAGE NOTES](https://github.com/bcurran3/ChocolateyPackages/blob/master/qdir/readme.md)**
+	</description>
+    <summary>Q-Dir - Really good quad explorer 4 files and folder</summary>
+    <releaseNotes>http://www.softwareok.com/?seite=Freeware/Q-Dir/History</releaseNotes>
+    <tags>qdir q-dir file manager managment explorer utility</tags>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
-  </files>
+  </files>  
 </package>
